@@ -2,11 +2,9 @@
 Task Scheduler and Reminder in C#
 # Overview
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
+As a Computer Engineer, my goal for this assignment was to get a better understanding of the C# programming language by creating an application that allows me to apply core concepts like object-oriented programming, file I/O operations, and task automation.For this project, I created a Task Scheduler and Reminder application that manages and notifies users of important tasks and deadlines. The system allows users to add tasks, mark them as completed, and receive reminders for upcoming deadlines.
 
-{Provide a description of the software that you wrote to demonstrate the C# language.}
-
-{Describe your purpose for writing this software.}
+Through this project, I focused on deepening my understanding of C# syntax, particularly object-oriented principles such as inheritance, abstraction, and polymorphism. The system also utilizes file handling to persist tasks between sessions, allowing for the addition, retrieval, and management of tasks across multiple runs of the program.
 
 {Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
 
@@ -14,21 +12,26 @@ Task Scheduler and Reminder in C#
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+- Programming Language: C#
 
-{Describe the programming language that you used and any libraries.}
+- IDE: Visual Studio Code
+
+- Libraries/Frameworks: None (standard C# libraries used)
+
+- Platform: Windows (for development, though the software should work on other platforms with .NET Core)
+
+For this project, I utilized Visual Studio Code for editing and building the software. I used basic C# libraries to manage tasks and reminders, including file handling for task persistence and DateTime functions for managing deadlines. By focusing on implementing core C# features, I reinforced my understanding of object-oriented programming and file I/O operations.
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
 
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [Microsoft C# Guide](https://learn.microsoft.com/en-us/dotnet/csharp/)
+- [Stack Overflow](https://stackoverflow.com/questions)
 
 # Future Work
+- Add Notifications: Implement desktop notifications or email alerts to notify users when a task is due.
 
-{Make a list of things that you need to fix, improve, and add in the future.}
+- User Interface: Create a graphical user interface (GUI) using Windows Forms or WPF to make the task management system more user-friendly.
 
-- Item 1
-- Item 2
-- Item 3
+- Recurring Tasks: Add functionality to support recurring tasks, such as weekly reminders or monthly deadlines.
+Task Prioritization: Implement task priority levels to allow users to mark tasks as high, medium, or low priority.
